@@ -1,0 +1,19 @@
+.row {
+    width: 100%;
+    margin: 0;
+}
+
+.left-col {
+    width: 60px;
+    height: 100%;
+    float: left;
+}
+
+.right-col {
+    margin-left: 60px;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}

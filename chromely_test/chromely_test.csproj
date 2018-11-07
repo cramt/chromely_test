@@ -1,8 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+    <ApplicationIcon />
+    <StartupObject />
+  <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Chromely.CefGlue.Winapi" Version="66.0.0" />
+    <PackageReference Include="Chromely.Core" Version="0.9.1" />
+    <PackageReference Include="Chromely.Unofficial.CefGlue.NetStd" Version="66.0.3359.117" />
+  </ItemGroup>
 
 </Project>
