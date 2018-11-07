@@ -11,7 +11,7 @@ module.exports = merge(commonConfig, {
     output: {
         path: resolve('./client/public/'),
         filename: 'bundle.js',
-        publicPath: '/'
+        publicPath: './'
     },
     devtool: 'cheap-module-eval-source-map',
     plugins: [

@@ -11,7 +11,7 @@
         "build": "npm run build:server && npm run build:client",
         "build:server": "tsc",
         "build:client": "webpack -p --progress --config webpack-prod.config",
-        "start": "concurrently --raw \"npm run dev:server\" \"npm run dev:client\" ",
+        "start": "npm run dev:client",
         "dev:server": "nodemon",
         "start:production": "node ./build/server/app.js",
         "pretest": "npm run lint",
